@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753833876658",
+    "project_id": "auth-form-1bf23",
+    "storage_bucket": "auth-form-1bf23.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753833876658:android:2737c6d89f38dbf8567dab",
+        "android_client_info": {
+          "package_name": "com.gdevs.fluter_auth_form"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSk1TzBQyjnx3nrF4veI2IKcHvKACAF-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
