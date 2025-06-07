@@ -28,7 +28,7 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     if (currentUser != null) {
       add(AuthUserChanged(currentUser));
     } else {
-      emit(AuthUnauthenticated());
+      add(AuthUserChanged(null));
     }
   }
 

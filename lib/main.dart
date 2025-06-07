@@ -1,6 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:fluter_auth_form/bloc/auth_bloc.dart';
-import 'package:fluter_auth_form/screens/auth/register_screen.dart';
 import 'package:fluter_auth_form/screens/home_screen.dart';
 import 'package:fluter_auth_form/screens/auth/login_screen.dart';
 import 'package:flutter/material.dart';

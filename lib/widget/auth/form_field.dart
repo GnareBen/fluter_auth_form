@@ -2,7 +2,6 @@ import 'package:fluter_auth_form/bloc/auth_bloc.dart';
 import 'package:fluter_auth_form/common/form_validator.dart';
 import 'package:fluter_auth_form/screens/auth/register_screen.dart';
 import 'package:fluter_auth_form/screens/home_screen.dart';
-import 'package:fluter_auth_form/widget/auth/register_form.dart';
 import 'package:fluter_auth_form/widget/custom_buton.dart';
 import 'package:fluter_auth_form/widget/text_form_field.dart';
 import 'package:flutter/material.dart';
@@ -97,7 +96,7 @@ class _CustomFormFieldState extends State<CustomFormField> {
                   : const SizedBox.shrink(),
 
               // Bouton de connexion
-              state is AuthLoading
+              isLoading
                   ? const CircularProgressIndicator()
                   : CustomButton(
                       text: "Se connecter",

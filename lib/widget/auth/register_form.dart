@@ -155,7 +155,7 @@ class _RegisterFormState extends State<RegisterForm> {
                   : const SizedBox.shrink(),
 
               // Bouton d'inscription
-              state is AuthLoading
+              isLoading
                   ? const CircularProgressIndicator()
                   : CustomButton(
                       text: "S'inscrire",
