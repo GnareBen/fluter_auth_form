@@ -59,13 +59,22 @@ class CustomTextFormField extends StatelessWidget {
           decoration: InputDecoration(
             hintText: hint,
             prefixIcon: prefixIcon != null ? Icon(prefixIcon) : null,
-            suffixIcon: suffixIcon != null
-                ? IconButton(
-                    icon: Icon(suffixIcon),
-                    onPressed: onSuffixIconPressed,
-                  )
-                : null,
+            suffixIcon:
+                suffixIcon != null
+                    ? IconButton(
+                      icon: Icon(suffixIcon),
+                      onPressed: onSuffixIconPressed,
+                    )
+                    : null,
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(8),
+              borderSide: BorderSide(color: Colors.blue.shade800),
+            ),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(8),
+              borderSide: BorderSide(color: Colors.blue.shade800),
+            ),
           ),
         ),
       ],
